@@ -5,12 +5,20 @@ import { useRouter } from 'next/router';
 const CoinPage = () => {
     const router = useRouter()
     const {id} = router.query;
-    const { data } = useQuery(['currency', id], () => getCurrency(id))
-    console.log(data);
+    const { data, isError, isLoading } = useQuery(['currency', id], () => getCurrency(id))
+    if (isLoading) {
+      return <p>Loading...</p>;
+    }
+  
+    if (isError) {
+      return <p>Error occurred while fetching data.</p>;
+    }
     
     return (
-        <div>
-            <h1>{data?.name}</h1>
+      <div className="container mx-auto p-8">
+          <div className="bg-gray-100 p-4 rounded-lg">
+            <h1 className="text-4xl font-bold mb-4">{data?.name}</h1>
+          </div>
         </div>
     )
 

@@ -1,6 +1,3 @@
-export interface ListOfCurrenciesType {
-    data: string[]
-}
 export interface CurrencyType {
 sparkline_in_7d: any
 ath: number,
@@ -25,10 +22,12 @@ max_supply: number,
 name: string,
 price_change_24h: number,
 price_change_percentage_24h: number,
+price_change_percentage_7d: number,
 price_change_percentage_24h_in_currency: number,
 price_change_percentage_7d_in_currency: number,
 roi?: null,
 symbol: string,
 total_supply: number,
 total_volume: number,
+description: string[]
 }
