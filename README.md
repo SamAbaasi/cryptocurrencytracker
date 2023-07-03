@@ -1,8 +1,6 @@
-markdown
-Copy code
 # Cryptocurrency Page
 
-This is a web application that displays detailed information about a specific cryptocurrency.
+This is a web application that displays a detailed list of cryptocurrencies.
 
 ## Features
 
@@ -23,7 +21,7 @@ This is a web application that displays detailed information about a specific cr
 1. Clone the repository:
 
    ```bash
-   git clone <https://github.com/SamanAbasi/cryptocurrencytracker.git>
+   git clone https://github.com/SamanAbasi/cryptocurrencytracker.git
 
 2. install Node Modules:
 
@@ -44,7 +42,7 @@ Folder Structure
 - components/: Contains reusable React components.
 - API/: Contains the API functions for fetching cryptocurrency data.
 - Types/: Contains the types.
-- lib/: Contains the configuration axios and react-query.
+- lib/: Contains the configuration Axios and react-query.
 - hooks/: Contains the global hooks.
 
 Customize:
