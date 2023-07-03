@@ -24,7 +24,6 @@ This is a web application that displays detailed information about a specific cr
 
    ```bash
    git clone <https://github.com/SamanAbasi/cryptocurrencytracker.git>
-Install the dependencies:
 
 2. install Node Modules:
 
@@ -41,12 +40,12 @@ Install the dependencies:
 Open your browser and navigate to http://localhost:3000 to view the application.
 
 Folder Structure
-pages/: Contains the Next.js pages for routing and rendering.
-components/: Contains reusable React components.
-API/: Contains the API functions for fetching cryptocurrency data.
-Types/: Contains the types.
-lib/: Contains the configuration axios and react-query.
-hooks/: Contains the global hooks.
+- pages/: Contains the Next.js pages for routing and rendering.
+- components/: Contains reusable React components.
+- API/: Contains the API functions for fetching cryptocurrency data.
+- Types/: Contains the types.
+- lib/: Contains the configuration axios and react-query.
+- hooks/: Contains the global hooks.
 
 Customize:
 You can customize the application by modifying the components, styling, and API functions to suit your specific requirements.
