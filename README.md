@@ -26,7 +26,7 @@ This is a web application that displays a detailed list of cryptocurrencies.
 2. install Node Modules:
 
    ```bash
-    cd cryptocurrency-page
+    cd cryptocurrencytracker
     yarn
 
 3. Start the development server:
