@@ -9,6 +9,10 @@ This is a web application that displays a detailed list of cryptocurrencies.
 - Server-side rendering (SSR) is implemented using Next.js.
 - Tailwind CSS is used for styling the components.
 
+## Screens
+![cryptotracker-screens](https://github.com/SamanAbasi/cryptocurrencytracker/assets/53538021/9b610a90-a3da-4182-9201-e2d9087ba39e)
+
+
 ## Technologies Used
 
 - React.js
