@@ -10,7 +10,9 @@ This is a web application that displays a detailed list of cryptocurrencies.
 - Tailwind CSS is used for styling the components.
 
 ## Screens
-![cryptotracker-screens](https://github.com/SamanAbasi/cryptocurrencytracker/assets/53538021/9b610a90-a3da-4182-9201-e2d9087ba39e)
+
+https://github.com/SamanAbasi/cryptocurrencytracker/assets/53538021/123f3e6e-3efc-41a0-8195-77f4c7850458
+
 
 
 ## Technologies Used
